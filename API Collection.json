@@ -15,7 +15,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"nombre\": \"Philip\",\r\n    \"apellido\": \"Fry\",\r\n    \"email\": \"PhilipFry@gmail.com\",\r\n    \"password\": \"12345\",\r\n    \"ciudad\": \"Nueva Nueva York\",\r\n    \"provincia\": \"Nueva York\",\r\n    \"pais\": \"Estados Unidos\",\r\n    \"tipo\": \"USUARIO\"\r\n}",
+							"raw": "{\r\n    \"nombre\": \"Philip\",\r\n    \"apellido\": \"Fry\",\r\n    \"email\": \"PhilipFry@gmail.com\",\r\n    \"password\": \"1077\",\r\n    \"ciudad\": \"Nueva Nueva York\",\r\n    \"provincia\": \"Nueva York\",\r\n    \"pais\": \"Estados Unidos\",\r\n    \"tipo\": \"USUARIO\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
