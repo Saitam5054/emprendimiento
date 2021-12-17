@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "2f67caa5-9e2d-45c3-90a4-d59fa807b0b9",
-		"name": "informatorio api Collection",
+		"_postman_id": "670ff791-fdf9-47f9-8415-2454be1643ee",
+		"name": "API emprendimiento",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -15,7 +15,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"nombre\": \"Ana\",\r\n    \"apellido\": \"Perez\",\r\n    \"email\": \"Anaperez@gmail.com\",\r\n    \"password\": \"12345\",\r\n    \"ciudad\": \"Resistencia\",\r\n    \"provincia\": \"Chaco\",\r\n    \"pais\": \"Argentina\",\r\n    \"tipo\": \"USUARIO\"\r\n}",
+							"raw": "{\r\n    \"nombre\": \"Philip\",\r\n    \"apellido\": \"Fry\",\r\n    \"email\": \"PhilipFry@gmail.com\",\r\n    \"password\": \"12345\",\r\n    \"ciudad\": \"Nueva Nueva York\",\r\n    \"provincia\": \"Nueva York\",\r\n    \"pais\": \"Estados Unidos\",\r\n    \"tipo\": \"USUARIO\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -77,7 +77,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"nombre\": \"Juan\",\r\n    \"apellido\": \"Perez\",\r\n    \"email\": \"juanperez@gmail.com\",\r\n    \"password\": \"7312678\",\r\n    \"ciudad\": \"Fontana\",\r\n    \"provincia\": \"Chaco\",\r\n    \"pais\": \"Argentina\",\r\n    \"tipo\": \"OWNER\"\r\n}",
+							"raw": "{\r\n    \"nombre\": \"Bender\",\r\n    \"apellido\": \"Rodriguez\",\r\n    \"email\": \"BenderBRodriguez@gmail.com\",\r\n    \"password\": \"01010101\",\r\n    \"ciudad\": \"Tijuana\",\r\n    \"provincia\": \"Baja California\",\r\n    \"pais\": \"México\",\r\n    \"tipo\": \"OWNER\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -188,7 +188,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"nombre\": \"Lavavajillas de media carga\",\r\n    \"descripcion\": \"Electrodomestico ecologico\",\r\n    \"contenido\": \"Permite ajustar el gasto de agua y electricidad a las necesidades que tengas las familias en ese momento\",\r\n    \"objetivo\": 500000,\r\n    \"publicado\": true,\r\n    \"url\": \"google/images\",\r\n    \"tags\": [\r\n        {\r\n           \"nombre\": \"Ahorro\"\r\n        },\r\n        {\r\n            \"nombre\": \"Sostenibilidad\"\r\n        },\r\n        {\r\n            \"nombre\": \"Electrodomesticos\"\r\n        }\r\n    ]\r\n}",
+							"raw": "{\r\n    \"nombre\": \"Router CNC\",\r\n    \"descripcion\": \"Máquina de control numérico\",\r\n    \"contenido\": \"Un Router CNC crea cualquier tipo de diseño en todo tipo de material\",\r\n    \"objetivo\": 100000,\r\n    \"publicado\": true,\r\n    \"url\": \"www.CNC.com\",\r\n    \"tags\": [\r\n        {\r\n           \"nombre\": \"CNC\"\r\n        },\r\n        {\r\n            \"nombre\": \"Arduino\"\r\n        },\r\n        {\r\n            \"nombre\": \"Electrónica\"\r\n        }\r\n    ]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -243,7 +243,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"nombre\": \"Horno inteligente\",\r\n    \"descripcion\": \"Electrodomestico ecologico\",\r\n    \"contenido\": \"predice cuál es el tiempo y temperatura para preparar los alimentos en su punto justo de cocción y además consigue aprovechar el calor residual del equipo\",\r\n    \"objetivo\": 90000,\r\n    \"publicado\": false,\r\n    \"url\": \"google/images\",\r\n    \"tags\": [\r\n        {\r\n           \"nombre\": \"Medio Ambiente\"\r\n        },\r\n        {\r\n            \"nombre\": \"Cocina\"\r\n        }\r\n    ]\r\n}",
+							"raw": "{\r\n    \"nombre\": \"CNC 3D\",\r\n    \"descripcion\": \"Impresora 3D\",\r\n    \"contenido\": \"Se crea una impresora 3D con control numérico\",\r\n    \"objetivo\": 100000,\r\n    \"publicado\": false,\r\n    \"url\": \"google/images\",\r\n    \"tags\": [\r\n        {\r\n           \"nombre\": \"CNC\"\r\n        },\r\n        {\r\n            \"nombre\": \"3D\"\r\n        }\r\n    ]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -378,7 +378,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"nombre\": \"Electrodomesticos ecologicos\",\r\n    \"detalles\": \"Evento que busca lograr mayor utilizacion de electrodomesticos que sean amigables con el medio ambiente\",\r\n    \"fechaDecierre\": \"2021/12/20\",\r\n    \"fechaFinal\": \"2021/12/30\",\r\n    \"premio\": 10000000\r\n}",
+							"raw": "{\r\n    \"nombre\": \"Mejor máquina CNC\",\r\n    \"detalles\": \"Se busca el mejor diseño de una máquina CNC\",\r\n    \"fechaDecierre\": \"2021/12/10\",\r\n    \"fechaFinal\": \"2021/12/17\",\r\n    \"premio\": 100000\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -429,6 +429,15 @@
 					"request": {
 						"method": "PUT",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Mejor máquina CNC\",\r\n    \"detalles\": \"Se busca el mejor diseño de una máquina CNC\",\r\n    \"fechaDecierre\": \"2021/12/10\",\r\n    \"fechaFinal\": \"2021/12/17\",\r\n    \"premio\": 10000000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
 							"raw": "http://localhost:8080/api/v1/eventos/actualizar-estado",
 							"protocol": "http",
